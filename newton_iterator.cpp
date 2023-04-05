@@ -15,4 +15,5 @@ int main(){
     Newton([](double x){return x*x-612.0;},
            [](double x){return 2*x;},10.0
     );
+    return 0;
 }
